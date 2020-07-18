@@ -1,0 +1,489 @@
+body,
+html {
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    background-color: #fcd232;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+.nav-modified {
+    background-color: #fcd232;
+    border: none;
+    border-radius: 0;
+    height: 114px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 10px;
+    margin-bottom: 0;
+}
+
+.header-flex {
+    height: inherit;
+    padding-left: 8rem;
+}
+
+.navbar-brand {
+    height: auto;
+    margin-top: 2.5rem;
+    padding: 0;
+}
+
+.brand-logo img {
+    width: 50px;
+    height: auto;
+}
+
+.overlay {
+    display: none;
+}
+
+.nav-right {
+    height: 100%;
+    float: right;
+    }
+
+p.p-links {
+    font-weight: bold;
+    color: rgb(251, 250, 252);
+    margin-top: 10px;
+}
+
+p.p-links:hover {
+    color: #302f38;
+}
+
+.p-links br {
+    display: none;
+}
+
+p.p-form-link,
+.card-btn {
+    background-color: #ff1300;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.2s;
+}
+
+.card-btn {
+    padding: 10px 35px;
+}
+
+.btn-default:focus {
+    color: #fff;
+    background-color: #ff1300;
+    border-color: #ff1300;
+}
+
+.btn:focus {
+    color: #fff;
+    outline: none;
+}
+
+
+.p-form-link:hover {
+    background-color: #ff1300;
+    color: #fff;
+    transform: scale(1.03);
+}
+
+.card-btn:hover {
+    background-color: #ff1300;
+    color: #fff;
+    border-color: #ff1300;
+}
+
+.navbar-nav>li>a {
+    padding: 0;
+}
+
+.ul-navbar {
+    padding-top: 2.5rem;
+}
+
+.ul-navbar li {
+    padding: 10px 20px;
+}
+
+.bg-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/bg-image7.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1.jumbo {
+    font-size: 8rem;
+    color: #fff;
+    padding: 3rem;
+}
+
+#projectButtons {
+    height: auto;
+    background-color: #302f38;
+    display: flex;
+    flex-direction: row;
+}
+
+.pjt-btn {
+    width: 33.33333%;
+    position: relative;
+}
+
+#projectButtons div:nth-of-type(1),
+#projectButtons div:nth-of-type(2) {
+    border-right: 1px solid #484848;
+}
+
+.pjt-btn button {
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3rem 7rem 3rem 3rem;
+    white-space: normal;
+}
+
+.pjt-btn:hover,
+.pjt-btn:hover>button,
+.active,
+.active>button {
+    background-color: #eb3b3b;
+    color: #302f38;
+}
+
+.icon-right {
+    font-size: 2.5rem;
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #302f38;
+    margin-left: 1rem;
+}
+
+.column {
+    display: none;
+}
+
+.cards {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin-bottom: 11rem;
+}
+
+.col-lg-4,
+.col-md-4,
+.col-sm-6,
+.col-xs-12 {
+    padding-bottom: 10px;
+}
+
+.c-card {
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.c-card:hover {
+    transform: scale(1.07);
+}
+
+.c-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.a-card {
+    text-decoration: none !important;
+}
+
+.card-caption {
+    padding: 2rem !important;
+}
+
+small {
+    display: block;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+
+.h5 {
+    display: inline-block;
+    font-weight: 700;
+    background-color: #fcd232;
+    padding: 0.5rem 0.7rem;
+    margin: 0;
+}
+
+h2,
+h3 {
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#loadMore {
+    display: block;
+    text-align: center;
+    position: relative;
+    bottom: -4rem;
+}
+
+#loadMore button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fcd232;
+    background-color: #484848;
+    padding: 1.5rem 5rem;
+    /* border-radius: 3rem; */
+    border-radius: 8px;
+}
+
+#loadMore button:hover {
+    color: white;
+}
+
+#loadMore .btn:focus {
+    outline-offset: 0px;
+    outline: none;
+}
+
+.footer {
+    background-color: #302f38;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.footer p {
+    margin-top: 10px;
+}
+
+.red-heart {
+    color: #ff1300;
+    font-size: 22px;
+}
+
+.overlay a {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1250px) {
+
+    .ul-navbar li {
+        padding: 10px 30px;
+    }
+
+    p.p-links {
+        margin-top: 0;
+    }
+
+    .p-links br {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .header-flex {
+        padding-left: 4rem;
+    }
+
+    .pjt-btn button {
+        font-size: 16px;
+    }
+
+    .ul-navbar li {
+        padding: 10px 13px;
+    }
+
+    p.p-form-link {
+        padding: 10px 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .p-links br {
+        display: none;
+    }
+
+    #projectButtons {
+        flex-direction: column;
+    }
+
+    .pjt-btn {
+        width: 100%;
+        position: relative;
+    }
+
+    #projectButtons div:nth-of-type(1),
+    #projectButtons div:nth-of-type(2) {
+        border-bottom: 1px solid #484848;
+    }
+
+    .cards {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .nav-modified {
+        height: auto;
+    }
+
+    .nav-logo {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .brand-logo {
+        margin-top: 0;
+    }
+
+    .burger {
+        border: none;
+    }
+
+    .burger .bar-first,
+    .burger .bar-second,
+    .burger .bar-third {
+        width: 46px;
+        height: 6px;
+        border-radius: 3px;
+        margin-top: 5px !important;
+        background-color: #302f38 !important;
+    }
+
+    .burger .bar-second {
+        width: 34px;
+        margin-left: 12px;
+    }
+
+    .burger .bar-third {
+        width: 20px;
+        margin-left: 26px;
+    }
+
+    /* #loadMore {
+        visibility: visible;
+        text-align: center;
+        position: relative;
+        bottom: -4rem;
+    }
+
+    #loadMore a {
+        font-size: 16px;
+        font-weight: 600;
+        color: #fcd232;
+        background-color: #484848;
+        padding: 1.5rem 5rem;
+        border-radius: 3rem;
+    } */
+
+    .nav-right {
+        display: none;
+    }
+
+    .overlay {
+        display: block;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #302f38;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 20%;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .overlay li {
+        margin-bottom: 2rem;
+    }
+
+    .overlay a {
+        padding: 5px;
+        text-decoration: none;
+        font-size: 30px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .overlay p {
+        margin-left: 3rem;
+        color: white;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .overlay a:hover,
+    .overlay a:focus {
+        color: #f1f1f1;
+    }
+
+    .overlay .closebtn {
+        position: absolute;
+        top: 0px;
+        right: 25px;
+        font-size: 60px;
+    }
+
+    p.p-form-link {
+        font-size: 18px;
+        font-weight: 600;
+        display: inline-block;
+        text-align: center;
+        margin-left: 3rem;
+        padding: 1.5rem 2rem;
+    }
+
+  }
+
+  @media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}

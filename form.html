@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Искористи ја можноста најголемите таленти од Brainster да работат за твојот бренд. Приложи твој проект за работа на Академиите за маркетинг, дизајн и програмирање.">
+    <title>Employ students - Brainster Labs</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css-custom/form-style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://kit-pro.fontawesome.com/releases/v5.12.0/css/pro.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default nav-modified">
+        <div class="container-fluid header-flex">
+            <div class="navbar-header nav-logo">
+                <button type="button" class="navbar-toggle collapsed burger" onclick="openNav()">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar bar-first"></span>
+                    <span class="icon-bar bar-second"></span>
+                    <span class="icon-bar bar-third"></span>
+                </button>
+                <a class="navbar-brand brand-logo" href="index.html">
+                    <img src="assets/images/Brainster-Logo.png" alt="Brainster logo">
+                </a>
+            </div>
+            <div class="nav-right">
+
+                <ul class="nav navbar-nav navbar-right ul-navbar">
+                    <li>
+                        <a href="https://marketpreneurs.brainster.co/?utm_source=brainster.co&utm_medium=academies&utm_campaign=website&utm_content=mkt" target="_blank">
+                            <p class="p-links">Академија за<br> маркетинг</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://codepreneurs.co/" target="_blank">
+                            <p class="p-links">Академија за<br> програмирање</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://datascience.brainster.co/?utm_source=brainster.co&utm_medium=academies&utm_campaign=website&utm_content=data_science" target="_blank">
+                            <p class="p-links">Академија за<br> data science</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://design.brainster.co/?utm_source=brainster.co&utm_medium=academies&utm_campaign=website&utm_content=design" target="_blank">
+                            <p class="p-links">Академија за<br> дизајн</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="form.html" target="_blank">
+                            <p class="p-form-link">Вработи наш студент</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="myNav" class="overlay nav-right">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <ul class="nav navbar-nav navbar-right ul-navbar overlay-content">
+                    <li>
+                        <a href="https://www.brainster.io/marketpreneurs" target="_blank">
+                            <p class="p-links">Академија за<br> маркетинг</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://codepreneurs.co/" target="_blank">
+                            <p class="p-links">Академија за<br> програмирање</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/data-science" target="_blank">
+                            <p class="p-links">Академија за<br> data science</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.brainster.io/design" target="_blank">
+                            <p class="p-links">Академија за<br> дизајн</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="form.html" target="_blank">
+                            <p class="p-form-link">Вработи наш студент</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid big-form">
+        <div class="row text-center">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1>Вработи студенти</h1>
+            </div>
+        </div>
+        <div class="row row-form">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <form action="">
+                    <div class="form-group">
+                        <label for="nameSurname">Име и презиме</label>
+                        <input type="text" class="form-control" id="nameSurname" placeholder="Вашето име и презиме"
+                            style="font-style:italic" required>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <form action="">
+                    <div class="form-group">
+                        <label for="companyName">Име на компанија</label>
+                        <input type="text" class="form-control" id="companyName" placeholder="Име на вашата компанија"
+                            style="font-style:italic" required>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <form action="">
+                    <div class="form-group">
+                        <label for="eMail">Контакт имејл</label>
+                        <input type="email" class="form-control" id="eMail"
+                            placeholder="Контакт имејл на вашата компанија" style="font-style:italic" required>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <form action="">
+                    <div class="form-group">
+                        <label for="phoneNumber">Контакт телефон</label>
+                        <input type="text" class="form-control" id="phoneNumber"
+                            placeholder="Контакт телефон на вашата компанија" style="font-style:italic" required>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <form action="">
+                    <div class="form-group form-select">
+                        <label for="studentType">Тип на студенти</label>
+                        <div class="custom-select-wrapper">
+                            <div class="custom-select">
+                                <div class="custom-select__trigger"><span>Изберете тип на студент</span>
+                                    <div class="arrow"></div>
+                                </div>
+                                <div class="custom-options">
+                                    <span class="custom-option selected" style="display: none;" data-value=""></span>
+                                    <span class="custom-option" data-value="Студенти од маркетинг">Студенти од маркетинг</span>
+                                    <span class="custom-option" data-value="Студенти од програмирање">Студенти од програмирање</span>
+                                    <span class="custom-option" data-value="Студенти од data science">Студенти од data science</span>
+                                    <span class="custom-option" data-value="Студенти од дизајн">Студенти од дизајн</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <form>
+                    <button class="btn btn-default btn-block btn-send" type="button" data-toggle="modal" data-target="#myModal" >ИСПРАТИ</button>
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header modal-row">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Вашето барање е примено. Ви благодариме!</h4>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container-fluid footer">
+        <div class="row text-center">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p>Изработено со <span class="red-heart">&#x2764</span> од студентите на Brainster</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
+    </script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+    </script>
+
+    <script src="assets/js/load.js"></script>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+    
+    <script src="assets/js/select.js"></script>
+
+</body>
+
+</html>
