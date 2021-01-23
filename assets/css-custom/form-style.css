@@ -103,16 +103,27 @@ p.p-form-link,
     padding: 10px 20px;
 }
 
+.big-form {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/bg-image6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    color: #f1f1f1;
+}
+
 .big-form h1 {
     font-size: 6rem;
     font-weight: bolder;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    letter-spacing: 5px;
 }
 
 form label {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 .row-form {
@@ -170,7 +181,7 @@ input:invalid {
     border-radius: 7px;
     padding: 6px 12px;
     background-color: #fff;
-    font-weight: 600;
+   letter-spacing: 1px;
 }
 
 .custom-options {
@@ -213,7 +224,6 @@ input:invalid {
     border-bottom: 1px solid #ccc;
     padding: 6px 12px;
     background-color: #fff;
-    font-weight: 600;
 }
 
 .custom-option:nth-child(2) {
@@ -280,18 +290,18 @@ input:invalid {
     margin-bottom: 15px;
     background-color: #ff1300;
     color: #fff;
-    font-weight: 600;
+    font-weight: 400;
     border-color: #ff1300;
+    letter-spacing: 1px;
+    transition: all .5s ease;
 }
 
-form .btn-send:hover {
-    background-color: #fff;
-    border-color: #ff1300;
-    color: #ff1300;
-    box-shadow: 1px 1px 20px 10px pink inset;
-}
-
-form .btn-send:focus {
+form .btn-send:hover,
+form .btn-send:focus{
+    background-color: #000000;
+    border-color: #000000;
+    color: #fff;
+    letter-spacing: 5px;
     outline: none;
     outline-offset: 0px;
 }
