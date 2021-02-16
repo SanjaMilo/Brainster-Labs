@@ -476,6 +476,14 @@ h2 {
 
   }
 
+  @media only screen and (max-width: 450px) {
+    h1.jumbo {
+        font-size: 5rem;
+        color: #fff;
+        padding: 1rem;
+    }
+  }
+
   @media screen and (max-height: 450px) {
     .overlay a {
         font-size: 20px
@@ -486,4 +494,5 @@ h2 {
         top: 15px;
         right: 35px;
     }
+
 }
